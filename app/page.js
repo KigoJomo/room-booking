@@ -23,6 +23,7 @@ export default async function HomePage() {
       <p className="text-xl text-gray-600">
         Hello, {user.rows[0].name}!
       </p>
+      <p>This is a simple room booking system</p>
       <form action="/api/auth/logout" method="post" className="mt-4">
         <button 
           type="submit"
